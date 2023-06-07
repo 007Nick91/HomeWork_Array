@@ -8,7 +8,7 @@ public class SatatsServiceTest {
 
     @Test
     public void testShouldFindSumAllSales() {
-        SatatsService service = new SatatsService();
+        StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         System.out.println("Сумма всех продаж = " + service.sumSales(sales));
@@ -20,7 +20,7 @@ public class SatatsServiceTest {
 
     @Test
     public void testShouldFindMidlSumSales() {
-        SatatsService service = new SatatsService();
+        StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         System.out.println("Средняя сумма продаж = " + service.midlelSales(sales));
@@ -29,7 +29,7 @@ public class SatatsServiceTest {
 
     @Test
     public void testShouldFindMonthMinSales() {
-        SatatsService service = new SatatsService();
+        StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         System.out.println("Номер месяца с минимальными продажами = " + service.monthMinSales(sales));
@@ -38,15 +38,15 @@ public class SatatsServiceTest {
 
     @Test
     public void testShouldFindMonthMaxSales() {
-        SatatsService service = new SatatsService();
+        StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         System.out.println("Номер месяца с максимальными продажами = " + service.monthMaxSales(sales));
     }
 
     @Test
-    public void testShouldFindminmonthSales() {
-        SatatsService service = new SatatsService();
+    public void testShouldFindMinMonthSales() {
+        StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         int expected = 5;
@@ -57,8 +57,8 @@ public class SatatsServiceTest {
     }
 
     @Test
-    public void testShouldFindmaxnmonthSales() {
-        SatatsService service = new SatatsService();
+    public void testShouldFindMaxnMonthSales() {
+        StatsService service = new StatsService();
         int[] sales = {8, 15, 13, 15, 17, 20, 19, 20, 7, 14, 14, 18};
 
         int expected = 5;

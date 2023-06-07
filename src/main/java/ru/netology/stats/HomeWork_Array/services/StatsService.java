@@ -1,6 +1,6 @@
 package ru.netology.stats.HomeWork_Array.services;
 
-public class SatatsService {
+public class StatsService {
 
     public int sumSales(int[] sales) {
         int sum = 0;
